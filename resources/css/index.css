@@ -1,0 +1,31 @@
+
+body {
+    background-color: rgb(64, 6, 6);
+    
+}
+
+
+
+* {
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1, p, h2 {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+#img1, #img2 {
+    width: 300px;
+    border: 3px ridge rgb(114, 114, 109);
+}
+
+#img1:hover, #img2:hover{
+    width: 350px;
+    border: 3px ridge rgb(114, 114, 109);
+}

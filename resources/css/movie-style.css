@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(64, 6, 6);
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.screenshots {
+    margin: 25px 100px;
+}
+
+#back, #home{
+    border: 5px solid black;
+    padding: 0 10px;
+    border-radius: 10px;
+    position: sticky;
+    margin: 20px 0;
+}
+
+
+
+#back:hover, #home:hover {
+    background-color: rgb(111, 109, 109);
+}
