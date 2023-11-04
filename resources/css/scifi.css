@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
-    background-color: rgb(64, 6, 6);
+    background: rgb(149,0,0);
+background: radial-gradient(circle, rgba(149,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    
     color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 50px;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 .movie-list {
@@ -25,37 +29,54 @@ h1 {
     margin: 20px;
 }
 
-.thumbnail {
-    width: 100px;
-    margin-bottom: 30px;
-    transition: transform 1.3s ease;
-}
-
 .movie-title {
     font-size: 18px;
     text-align: center;
     width: 100px;
 }
 
-footer {
-    border: 5px solid black;
-    padding: 0 10px;
-    border-radius: 10%;
-    margin: 20px 0;
-    width: 55px;
-}
-
-h3 {
-    color: aqua;
-    text-align: center;
-
-}
-
-footer:hover {
-background-color: rgb(111, 109, 109);
+.thumbnail {
+    width: 100px;
+    margin-bottom: 30px;
+    transition: transform 1.3s ease;
+    box-shadow: 6px 3px 25px rgba(0, 0, 0, 0.8);
 }
 
 .thumbnail:hover {
 outline: 3px inset white;
 transform: scale(2.2);
 }
+
+
+
+li, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    color: beige;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 10px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 6px 3px 25px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
